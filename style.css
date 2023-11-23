@@ -1,0 +1,184 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  background-image: url(https://github.com/irijahdeleon/utangnaloob.github.io/blob/main/UAL_background.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.tutorial {
+  border-radius: 15px;
+  width: 80%;
+  margin: 10% auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  background-color: #f9f9f9;
+  max-width: 800px;
+}
+.tutorial .slider {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  background-color: #f03861;
+}
+
+#giphy-embed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.tutorial .information {
+  width: 100%;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  font-family: "Menlo";
+  font-size: 20px;
+}
+.tutorial .information h1 {
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+#superscript{
+  text-align: center;
+}
+
+.tutorial .information h2 {
+  color: #333;
+  font-size: 3rem;
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.tutorial .information h3 {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0px 10px;
+  border-left: 3px solid #f03861;
+}
+.tutorial .information p {
+  padding: 10px 0px;
+  text-align: justify;
+}
+.tutorial .information h4 {
+  padding: 10px 0px;
+  text-align: center;
+}
+.tutorial ul {
+  font-size: 0;
+  list-style-type: none;
+}
+.tutorial ul li {
+  font-family: "Menlo";
+  font-size: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  display: inline-block;
+  padding: 15px;
+  position: relative;
+}
+.tutorial ul li ul {
+  display: none;
+}
+.tutorial ul li:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+.tutorial ul li:hover ul {
+  display: block;
+  margin-top: 15px;
+  width: 200px;
+  left: 0;
+  position: absolute;
+}
+.tutorial ul li:hover ul li {
+  display: block;
+  background-color: #e7e7e7;
+}
+.tutorial ul li:hover ul li span {
+  float: right;
+  color: #f9f9f9;
+  background-color: #f03861;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  border-radius: 3px;
+}
+.tutorial ul li:hover ul li:hover {
+  background-color: #e0e0e0;
+}
+.tutorial ul li:hover ul li:hover span {
+  background-color: #ee204e;
+}
+
+.layout {
+  padding-top:50px;
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.layout2 {
+  padding-top:50px;
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+#bts img{
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#team img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.image-row {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between; /* this will add equal space between each image */
+}
+
+#goals img{
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
