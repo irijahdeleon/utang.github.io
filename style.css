@@ -99,34 +99,54 @@ html {
 .tutorial ul li ul {
   display: none;
 }
-.tutorial ul li:hover {
+.tutorial ul li,
+.tutorial ul li:active {
+  position: relative;
   cursor: pointer;
-  background-color: #f2f2f2;
 }
-.tutorial ul li:hover ul {
-  display: block;
-  margin-top: 15px;
-  width: 200px;
-  left: 0;
+
+.tutorial ul li ul {
+  display: none;
   position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  background-color: #e7e7e7;
+  margin-top: 0; /* Adjusted margin-top */
 }
-.tutorial ul li:hover ul li {
+
+.tutorial ul li ul li {
   display: block;
   background-color: #e7e7e7;
 }
-.tutorial ul li:hover ul li span {
+
+.tutorial ul li ul li span {
   float: right;
   color: #f9f9f9;
   background-color: #f03861;
   padding: 2px 5px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 3px;
 }
-.tutorial ul li:hover ul li:hover {
+
+.tutorial ul li:hover,
+.tutorial ul li:active {
+  background-color: #f2f2f2;
+}
+
+.tutorial ul li:hover ul,
+.tutorial ul li:active ul {
+  display: block;
+}
+
+.tutorial ul li:hover ul li:hover,
+.tutorial ul li:active ul li:active {
   background-color: #e0e0e0;
 }
-.tutorial ul li:hover ul li:hover span {
+
+.tutorial ul li:hover ul li:hover span,
+.tutorial ul li:active ul li:active span {
   background-color: #ee204e;
 }
 
@@ -192,8 +212,4 @@ html {
   width: 100%;
   height: 400px;
   object-fit: cover;
-}
-
-a {
-  text-decoration: none;
 }
