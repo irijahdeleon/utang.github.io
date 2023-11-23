@@ -193,3 +193,7 @@ html {
   height: 400px;
   object-fit: cover;
 }
+
+a {
+  text-decoration: none;
+}
