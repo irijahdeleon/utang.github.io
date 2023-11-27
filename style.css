@@ -39,12 +39,12 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .tutorial .information {
   width: 100%;
-  padding: 20px 50px;
+  padding: 10px 50px;
   margin-bottom: 30px;
   font-family: "Menlo";
   font-size: 20px;
@@ -56,7 +56,7 @@ html {
   text-align: center;
 }
 
-#superscript{
+#superscript {
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ html {
 }
 
 .layout {
-  padding-top:50px;
+  padding-top: 50px;
   width: auto;
   height: auto;
   display: grid;
@@ -161,7 +161,7 @@ html {
 }
 
 .layout2 {
-  padding-top:50px;
+  padding-top: 50px;
   width: auto;
   height: auto;
   display: grid;
@@ -170,7 +170,7 @@ html {
   gap: 50px;
 }
 
-#bts img{
+#bts img {
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: auto;
@@ -178,7 +178,7 @@ html {
   width: 100%;
 }
 
-#team img{
+#team img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -190,7 +190,7 @@ html {
   justify-content: space-between; /* this will add equal space between each image */
 }
 
-#goals img{
+#goals img {
   border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -202,7 +202,7 @@ html {
   object-fit: cover;
 }
 
-#article img{
+#article img {
   border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
