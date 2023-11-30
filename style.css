@@ -185,6 +185,24 @@ html {
   width: 100%;
 }
 
+#links {
+ text-align: center;
+ color: #7F9A66;
+ text-decoration: underline;
+ border: 2px solid #7F9A66;
+ border-radius: 30px;
+}
+
+#links a{
+ text-align: center;
+ color: #7F9A66;
+}
+
+#links a:visited {
+  color: #023020;
+}
+
+
 .image-row {
   padding-top: 20px;
   display: flex;
