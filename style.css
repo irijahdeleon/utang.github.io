@@ -257,3 +257,8 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
